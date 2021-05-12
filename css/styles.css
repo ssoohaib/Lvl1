@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #1b2021;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 4.6rem;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 0;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+h3{
+    color: #11999E;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    color: #238386;
+}
+
+p{
+    color: #1b2021;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+hr{
+    margin: 100px auto 100px;
+    width: 4%;
+    border-color: grey;
+    border-width: 7px;
+    border-style: dotted none none none;
+}
+
+.top-container{
+    padding-top: 100px;
+    background-color: #E4F9F7;
+    position: relative;    
+}
+
+.top-cloud{
+    position:absolute;
+    top: 70px;
+    right: 270px;
+    width: 13%;
+}
+
+.middle-cloud{
+    position: absolute;
+    left: 250px;
+    width: 13%; 
+}
+
+.profile-img{
+    width: 27%;
+}
+
+.profile{
+    width: 40%;
+    margin: 60px auto 70px auto;
+    line-height: 2;
+}
+
+.skill-row{    
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.game-dev{
+    border-radius: 100%;
+    width: 25%;
+    margin-right: 30px;    
+    float: left;    /*used to wrap aound text*/
+}
+
+.web-dev{
+    border-radius: 100%;
+    width: 24%;
+    margin-left: 30px;    
+    float: right;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    position: relative;
+}
+
+.friends{
+    margin: 40px auto 28px auto;
+}
+
+.code-together{
+    margin: 10px auto 40px auto;
+}
+
+.bottom-container{
+    margin-top: 150px;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 20px 7px 20px 7px;
+}
+
+.footer-link:hover{
+    color: white;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.9rem;
+    margin: 50px auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*===============Button====================*/
+.button{
+    margin-top: 20px;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.btn{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #66BFBF;
+    border: 2px solid #66BFBF;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.btn span{
+    position: relative;
+    z-index: 2;
+}
+
+.btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #66BFBF;
+    transition: all .35s;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.btn:hover:after{
+    width: 100%;
+}
